@@ -1,0 +1,15 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": ["plugin:@typescript-eslint/recommended"],
+    "parserOptions": { "ecmaVersion": 2018, "sourceType": "module" },
+    "rules": {
+      "no-console":"warn",
+      "no-delete-var": "error",
+      "no-empty": "error",
+      "no-empty-function":"warn",
+      "no-var": "error",
+      "no-mixed-spaces-and-tabs":"warn",
+      "semi":"error",
+      "@typescript-eslint/no-explicit-any": "off"
+    }
+  }
